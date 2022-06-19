@@ -8,9 +8,9 @@ TARGET_GCC=/home/kinar/toolchain/toolchain/i686-elf/bin/i686-elf-gcc
 TARGET_LD= /home/kinar/toolchain/toolchain/i686-elf/bin/i686-elf-ld
 
 
-C_SOURCES = $(wildcard kernel/*.c drivers/*.c)
-HEADERS = $(wildcard kernel/*.h  drivers/*.h)
-OBJ_FILES = ${C_SOURCES:.c=.o}
+C_SOURCES = $(wildcard kernel/*.c drivers/*.c cpu/*.c)
+HEADERS = $(wildcard kernel/*.h  drivers/*.h cpu/*.h)
+OBJ_FILES = ${C_SOURCES:.c=.o cpu/interrupt.o}
 
 
 all: run
@@ -42,3 +42,4 @@ clean:
 	$(RM) kernel/*.o
 	$(RM) boot/*.o boot/*.bin
 	$(RM) drivers/*.o
+	$(RM) cpu/*.o
