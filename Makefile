@@ -2,10 +2,10 @@
 # $< = first dependency
 # $^ = all dependencies
 
-TOOLCHAIN_BIN=/home/kinar/toolchain/toolchain/i686-elf/bin
+TOOLCHAIN_BIN=~/toolchain/i686-elf/bin
 TOOLCHAIN_PREFIX?=i686-elf
-TARGET_GCC=/home/kinar/toolchain/toolchain/i686-elf/bin/i686-elf-gcc
-TARGET_LD= /home/kinar/toolchain/toolchain/i686-elf/bin/i686-elf-ld
+TARGET_GCC=~/toolchain/i686-elf/bin/i686-elf-gcc
+TARGET_LD= ~/toolchain/i686-elf/bin/i686-elf-ld
 
 
 C_SOURCES = $(wildcard kernel/*.c drivers/*.c cpu/*.c)
@@ -43,3 +43,4 @@ clean:
 	$(RM) boot/*.o boot/*.bin
 	$(RM) drivers/*.o
 	$(RM) cpu/*.o
+	$(RM) boot/kernel_entry.o

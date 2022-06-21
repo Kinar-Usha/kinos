@@ -1,5 +1,17 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/kinar/OS'
+nasm boot/mbr.asm -f bin -o boot/mbr.bin
+nasm boot/kernel_entry.asm -f elf -o boot/kernel_entry.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c kernel/util.c -o kernel/util.o
+nasm cpu/interrupt.asm -f elf -o cpu/interrupt.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c kernel/kernel.c -o kernel/kernel.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c drivers/display.c -o drivers/display.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c drivers/ports.c -o drivers/ports.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c drivers/keyboard.c -o drivers/keyboard.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c cpu/isr.c -o cpu/isr.o
+~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c cpu/idt.c -o cpu/idt.o
+~/toolchain/i686-elf/bin/i686-elf-ld -m elf_i386 -o kernel.bin -Ttext 0x1000 boot/kernel_entry.o kernel/util.o cpu/interrupt.o kernel/kernel.o drivers/display.o drivers/ports.o drivers/keyboard.o cpu/isr.o cpu/idt.o --oformat binary
+cat boot/mbr.bin kernel.bin > os-image.bin
 qemu-system-i386 -fda os-image.bin
 make: Leaving directory '/home/kinar/OS'
  
