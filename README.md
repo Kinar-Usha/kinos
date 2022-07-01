@@ -30,8 +30,6 @@ make
 ```
 make clean
 ```
-### Qemu 
-![OS](https://imgur.com/a/J3er9YM)
 
 
 
