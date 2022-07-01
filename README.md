@@ -30,7 +30,8 @@ make
 ```
 make clean
 ```
-
+### Qemu 
+![OS](https://github.com/Kinar-Usha/kinos/blob/master/public/image.png?raw=true)
 
 
 
