@@ -33,4 +33,5 @@ make clean
 
 
 
-
+### SS
+[QEMU] https://imgur.com/a/J3er9YM
