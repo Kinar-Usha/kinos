@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 21 16:02:12 2022
+# Make data base, printed on Fri Jul  1 20:05:14 2022
 
 # Variables
 
@@ -15,7 +15,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up:BASH_ENV/u
+WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION:BASH_ENV/u:WT_PROFILE_ID
 # default
 .SHELLFLAGS := -c
 # environment
@@ -33,7 +33,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /home/kinar/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+_ = /mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin/code
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # 'override' directive
@@ -53,13 +53,13 @@ MAKE_HOST := x86_64-pc-linux-gnu
 # makefile (from 'Makefile', line 13)
 OBJ_FILES = ${C_SOURCES:.c=.o cpu/interrupt.o}
 # environment
-PATH = /home/kinar/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/ibm files/ext/bin/spss.TMWBServer/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Users/nodist/bin:/mnt/c/Users/LENOVO/Nodist/bin:/mnt/d/goLang/bin:/mnt/c/Users/LENOVO/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.9/:/mnt/d/java sdk/bin:/mnt/c/TDM-GCC-64/bin:/mnt/c/MinGW/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/OSdev/nasm:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.exe:/mnt/d/OSdev/bochs/Bochs-2.6.11/bochs.exe:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/d/nodejs/:/mnt/d/neo/Neovim/bin:/mnt/d/postgres/bin:/mnt/d/postgres/pgAdmin 4/bin:/mnt/d/postgres/lib:/mnt/d/flut/flutter/bin:/mnt/d/projects/ISC_BIND/bin:/mnt/d/dataEngg/nie/spark/bin:/mnt/d/dataEngg/nie/winutils/bin:/mnt/d/anaconda:/mnt/d/anaconda/Library/mingw-w64/bin:/mnt/d/anaconda/Library/usr/bin:/mnt/d/anaconda/Library/bin:/mnt/d/anaconda/Scripts:/mnt/c/Users/LENOVO/.cargo/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/LENOVO/go/bin:/mnt/c/Users/LENOVO/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.9:/mnt/d/qemu:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/d/heroku/bin:/mnt/d/nodejs:/mnt/d/GnuWin32/bin:/mnt/d/neo/Neovim/bin:/mnt/d/postgres/bin:/mnt/d/flut/flutter/bin:/snap/bin
+PATH = /home/kinar/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/ibm files/ext/bin/spss.TMWBServer/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Users/nodist/bin:/mnt/c/Users/LENOVO/Nodist/bin:/mnt/d/goLang/bin:/mnt/c/Users/LENOVO/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.9/:/mnt/d/java sdk/bin:/mnt/c/TDM-GCC-64/bin:/mnt/c/MinGW/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/OSdev/nasm:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.exe:/mnt/d/OSdev/bochs/Bochs-2.6.11/bochs.exe:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/d/nodejs/:/mnt/d/neo/Neovim/bin:/mnt/d/postgres/bin:/mnt/d/postgres/pgAdmin 4/bin:/mnt/d/postgres/lib:/mnt/d/flut/flutter/bin:/mnt/d/projects/ISC_BIND/bin:/mnt/d/dataEngg/nie/spark/bin:/mnt/d/dataEngg/nie/winutils/bin:/mnt/d/anaconda:/mnt/d/anaconda/Library/mingw-w64/bin:/mnt/d/anaconda/Library/usr/bin:/mnt/d/anaconda/Library/bin:/mnt/d/anaconda/Scripts:/mnt/c/Users/LENOVO/.cargo/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/LENOVO/go/bin:/mnt/d/qemu:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/d/heroku/bin:/mnt/d/GnuWin32/bin:/snap/bin
 # environment
 BASH_ENV = /etc/bash.bashrc
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-529501a7-145e-4aba-a7bb-9728bfbbf302.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-97883811-c461-4bc0-b2a8-866dfc918e58.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +67,7 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = 172.28.192.1:0
+DISPLAY = 172.26.80.1:0
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -77,7 +77,9 @@ TOOLCHAIN_BIN = ~/toolchain/i686-elf/bin
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/419_interop
+WSL_INTEROP = /run/WSL/11_interop
+# environment
+WT_SESSION = d734f89b-7cbf-4f73-8474-c5b255d84585
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -101,7 +103,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+SHLVL = 1
 # makefile (from 'Makefile', line 6)
 TOOLCHAIN_PREFIX = i686-elf
 # default
@@ -111,7 +113,7 @@ USER = kinar
 # makefile
 .DEFAULT_GOAL := all
 # environment
-NAME = schizofreak
+NAME = Code
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -134,6 +136,8 @@ MFLAGS = -pqrR
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_SIGPIPE = true
+# environment
+WT_PROFILE_ID = {5a069d55-87bd-57cf-8a07-2726b203d3e5}
 # default
 MAKEFILES := 
 # automatic
@@ -163,7 +167,7 @@ TARGET_GCC = ~/toolchain/i686-elf/bin/i686-elf-gcc
 # environment
 WSL_DISTRO_NAME = Ubuntu-20.04
 # variable set hash-table stats:
-# Load=76/1024=7%, Rehash=0, Collisions=4/108=4%
+# Load=78/1024=8%, Rehash=0, Collisions=4/110=4%
 
 # Pattern-specific Variable Values
 
@@ -171,13 +175,13 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 
 # Directories
 
-# kernel (device 2064, inode 214013): 8 files, no impossibilities.
-# drivers (device 2064, inode 214014): 11 files, no impossibilities.
+# kernel (device 2064, inode 214013): 6 files, no impossibilities.
+# drivers (device 2064, inode 214014): 8 files, no impossibilities.
 # . (device 2064, inode 3059): 12 files, no impossibilities.
-# boot (device 2064, inode 213998): 11 files, no impossibilities.
-# cpu (device 2064, inode 214193): 10 files, no impossibilities.
+# boot (device 2064, inode 213998): 2 files, no impossibilities so far.
+# cpu (device 2064, inode 213792): 7 files, no impossibilities.
 
-# 52 files, no impossibilities in 5 directories.
+# 35 files, no impossibilities in 5 directories.
 
 # Implicit Rules
 
@@ -197,27 +201,6 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 
 # Files
 
-# Not a target:
-boot/kernel_entry.asm:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:12:41.1191916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-kernel/util.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:57:10.2791916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-drivers/keyboard.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:02:11.1191916
-#  File has been updated.
-#  Successfully updated.
-
 all: run
 #  Command line target.
 #  Implicit rule search has been done.
@@ -227,119 +210,79 @@ all: run
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/3=0%
 
-boot/kernel_entry.o: boot/kernel_entry.asm
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'boot/kernel_entry'
-#  Last modified 2022-06-21 15:53:06.7363069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 33):
-	nasm $< -f elf -o $@
-
-drivers/ports.o: drivers/ports.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'drivers/ports'
-#  Last modified 2022-06-21 15:53:07.5763069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
-
-os-image.bin: boot/mbr.bin kernel.bin
-#  Implicit rule search has not been done.
-#  Last modified 2022-06-21 15:53:07.9063069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 22):
-	cat $^ > $@
-
 # Not a target:
-drivers/keyboard.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:59:08.3791916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-.SUFFIXES:
+boot/kernel_entry.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
+drivers/ports.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+os-image.bin: boot/mbr.bin kernel.bin
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 22):
+	cat $^ > $@
+
+# Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-21 15:53:00.9563069
+#  Last modified 2022-07-01 19:28:59.7805849
 #  File has been updated.
 #  Successfully updated.
- 
 
-cpu/idt.o: cpu/idt.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'cpu/idt'
-#  Last modified 2022-06-21 15:53:07.8463069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
+# Not a target:
+cpu/idt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-drivers/display.o: drivers/display.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'drivers/display'
-#  Last modified 2022-06-21 15:53:07.4663069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
+# Not a target:
+drivers/display.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-kernel/kernel.o: kernel/kernel.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'kernel/kernel'
-#  Last modified 2022-06-21 15:53:07.3263069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
+# Not a target:
+kernel/kernel.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 kernel.bin: boot/kernel_entry.o kernel/util.o cpu/interrupt.o kernel/kernel.o cpu/interrupt.o drivers/display.o cpu/interrupt.o drivers/ports.o cpu/interrupt.o drivers/keyboard.o cpu/interrupt.o cpu/isr.o cpu/interrupt.o cpu/idt.o cpu/interrupt.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-06-21 15:53:07.8963069
-#  File has been updated.
-#  Successfully updated.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 19):
 	$(TARGET_LD) -m elf_i386 -o $@ -Ttext 0x1000 $^ --oformat binary
 
-cpu/isr.o: cpu/isr.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'cpu/isr'
-#  Last modified 2022-06-21 15:53:07.7663069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
+# Not a target:
+cpu/isr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
+ 
 boot/mbr.asm:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:17:49.6791916
+#  Last modified 2022-06-22 19:31:28.8720551
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-drivers/ports.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 16:20:28.5012441
-#  File has been updated.
-#  Successfully updated.
-
-kernel/util.o: kernel/util.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'kernel/util'
-#  Last modified 2022-06-21 15:53:07.1063069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
+kernel/util.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -347,37 +290,13 @@ kernel/util.o: kernel/util.c kernel/util.h kernel/kernel.h drivers/display.h dri
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-cpu/interrupt.asm:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:51:09.3091916
-#  File has been updated.
-#  Successfully updated.
-
 run: os-image.bin
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
-# automatic
-# @ := run
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := os-image.bin
-# automatic
-# | := 
-# automatic
-# < := os-image.bin
-# automatic
-# ^ := os-image.bin
-# automatic
-# ? := os-image.bin
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
 #  recipe to execute (from 'Makefile', line 26):
 	qemu-system-i386 -fda $<
 
@@ -394,116 +313,58 @@ clean:
 	$(RM) boot/kernel_entry.o
 
 # Not a target:
-drivers/ports.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 15:27:09.8712441
-#  File has been updated.
-#  Successfully updated.
-
-drivers/keyboard.o: drivers/keyboard.c kernel/util.h kernel/kernel.h drivers/display.h drivers/ports.h drivers/keyboard.h cpu/isr.h cpu/idt.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'drivers/keyboard'
-#  Last modified 2022-06-21 15:53:07.6663069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 30):
-	$(TARGET_GCC) -m32 -ffreestanding -c $< -o $@
+drivers/keyboard.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-cpu/idt.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:47:24.6991916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-drivers/display.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:05:48.3491916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-kernel/kernel.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:19:40.3791916
-#  File has been updated.
-#  Successfully updated.
-
-cpu/interrupt.o: cpu/interrupt.asm
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'cpu/interrupt'
-#  Last modified 2022-06-21 15:53:07.1763069
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 33):
-	nasm $< -f elf -o $@
-
-# Not a target:
-cpu/isr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:56:14.2391916
-#  File has been updated.
-#  Successfully updated.
+cpu/interrupt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 boot/mbr.bin: boot/mbr.asm
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'boot/mbr'
-#  Last modified 2022-06-21 15:53:06.7263069
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := boot/mbr.bin
+# automatic
+# % := 
+# automatic
+# * := boot/mbr
+# automatic
+# + := boot/mbr.asm
+# automatic
+# | := 
+# automatic
+# < := boot/mbr.asm
+# automatic
+# ^ := boot/mbr.asm
+# automatic
+# ? := boot/mbr.asm
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
 #  recipe to execute (from 'Makefile', line 36):
 	nasm $< -f bin -o $@
 
-# Not a target:
-cpu/idt.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:46:34.8391916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-drivers/display.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:06:07.4391916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-kernel/util.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:09:10.5191916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-kernel/kernel.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 23:04:01.1391916
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-cpu/isr.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-19 22:53:58.0091916
-#  File has been updated.
-#  Successfully updated.
-
 # files hash-table stats:
-# Load=35/1024=3%, Rehash=0, Collisions=0/197=0%
+# Load=19/1024=2%, Rehash=0, Collisions=0/53=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 94 / storage = 1062 B / avg = 11 B
-# current buf: size = 8162 B / used = 1062 B / count = 94 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 61 / storage = 620 B / avg = 10 B
+# current buf: size = 8162 B / used = 620 B / count = 61 / avg = 10 B
 
-# strcache performance: lookups = 238 / hit rate = 60%
+# strcache performance: lookups = 93 / hit rate = 34%
 # hash-table stats:
-# Load=94/8192=1%, Rehash=0, Collisions=5/238=2%
-# Finished Make data base on Tue Jun 21 16:02:12 2022
+# Load=61/8192=1%, Rehash=0, Collisions=4/93=4%
+# Finished Make data base on Fri Jul  1 20:05:14 2022
 
  

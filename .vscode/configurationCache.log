@@ -1,1 +1,1 @@
-{"buildTargets":["all","boot/kernel_entry.o","boot/mbr.bin","clean","cpu/idt.o","cpu/interrupt.o","cpu/isr.o","drivers/display.o","drivers/keyboard.o","drivers/ports.o","kernel.bin","kernel/kernel.o","kernel/util.o","os-image.bin","run"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["all","boot/mbr.bin","clean","kernel.bin","os-image.bin","run"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

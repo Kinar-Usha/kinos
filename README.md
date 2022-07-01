@@ -8,7 +8,7 @@ Target architecture - x86
 3. VGA Graphic Driver
 4. IDT, IRQ, ISR
 5. Keyboard support
-6. PIT(?)
+
 
 A script to download and compile a cross-compiler.
 

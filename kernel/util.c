@@ -1,12 +1,12 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-void memory_copy(char *source, char *dest, int nbytes) {
-    int i;
-    for (i = 0; i < nbytes; i++) {
-        *(dest + i) = *(source + i);
-    }
-}
+// void memory_copy(char *source, char *dest, int nbytes) {
+//     int i;
+//     for (i = 0; i < nbytes; i++) {
+//         *(dest + i) = *(source + i);
+//     }
+// }
 int string_length(char s[]) {
     int i = 0;
     while (s[i] != '\0') ++i;

@@ -3,6 +3,7 @@ make: Entering directory '/home/kinar/OS'
 nasm boot/mbr.asm -f bin -o boot/mbr.bin
 nasm boot/kernel_entry.asm -f elf -o boot/kernel_entry.o
 ~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c kernel/util.c -o kernel/util.o
+ 
 nasm cpu/interrupt.asm -f elf -o cpu/interrupt.o
 ~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c kernel/kernel.c -o kernel/kernel.o
 ~/toolchain/i686-elf/bin/i686-elf-gcc -m32 -ffreestanding -c drivers/display.c -o drivers/display.o
