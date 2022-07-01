@@ -1,3 +1,5 @@
+//http://www.sunshine2k.de/articles/coding/cmemalloc/cmemory.html
+
 #include <stdbool.h>
 #include <stdint.h>
 #include "mem.h"
